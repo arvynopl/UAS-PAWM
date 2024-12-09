@@ -1,3 +1,5 @@
+// ./src/screens/SplashScreen.js
+
 import React, { useEffect } from 'react';
 import { View, StyleSheet } from 'react-native';
 import LottieView from 'lottie-react-native';
@@ -17,7 +19,7 @@ const SplashScreen = () => {
   return (
     <View style={styles.container}>
       <LottieView
-        source={require('../../assets/fix.json')} // Path to your Lottie JSON file
+        source={require('../../assets/flow-splash.json')} // Path to your Lottie JSON file
         autoPlay
         loop={false} // Set to false if you want the animation to stop after one iteration
         style={styles.animation}
