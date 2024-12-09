@@ -1,10 +1,12 @@
 {
   "expo": {
     "name": "Lab Virtual",
-    "slug": "virtual-lab",
+    "slug": "uas-pawm",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "splash": {
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#FFFFFF"
     },
@@ -16,10 +18,10 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.tpb.virtuallab"
+      "bundleIdentifier": "com.pl_arvyno.uaspawm"
     },
     "android": {
-      "package": "com.tpb.virtuallab",
+      "package": "com.pl_arvyno.uaspawm",
       "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
@@ -30,7 +32,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "1c1a0aa0-e0e9-4fe5-8529-c1a6ba600e53"
+        "projectId": "4565dddc-4faf-449a-9be5-a3fae83ff660"
       }
     },
     "owner": "pl_arvyno"

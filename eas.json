@@ -5,25 +5,23 @@
   },
   "build": {
     "preview": {
+      "distribution": "internal",
       "android": {
-        "buildType": "apk",
-        "gradleCommand": ":app:assembleRelease",
-        "env": {
-          "EXPO_NO_DOTENV": "1"
-        }
+        "buildType": "apk"
       }
     },
     "production": {
+      "autoIncrement": true,
       "android": {
         "buildType": "apk",
         "gradleCommand": ":app:assembleRelease",
         "env": {
           "EXPO_NO_DOTENV": "1"
+        },
+        "cache": {
+          "key": "production-v1"
         }
       }
     }
-  },
-  "submit": {
-    "production": {}
   }
 }
