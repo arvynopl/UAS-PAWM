@@ -3,6 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import * as SplashScreen from 'expo-splash-screen';
 import { View, LogBox, Platform } from 'react-native';
 import AppNavigator from './src/navigation/AppNavigator';
+import LottieView from 'lottie-react-native';
 
 // Ignore specific yellow box warnings that might not be relevant for production
 LogBox.ignoreLogs([
