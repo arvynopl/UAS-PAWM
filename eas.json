@@ -10,8 +10,8 @@
         "gradleCommand": ":app:assembleRelease",
         "env": {
           "EXPO_NO_DOTENV": "1"
-        }
-      }
+        } 
+      }  
     },
     "production": {
       "autoIncrement": true,
@@ -22,9 +22,18 @@
           "EXPO_NO_DOTENV": "1"
         }
       }
+    },
+    "development-simulator": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "simulator": true
+      }
     }
   },
   "submit": {
     "production": {}
   }
 }
+
+

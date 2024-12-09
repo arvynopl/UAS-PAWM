@@ -1,19 +1,26 @@
-// src/navigation/AppNavigator.js
-
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import HomeScreen from '../screens/HomeScreen';
+import SplashScreen from '../screens/SplashScreen'; // Import SplashScreen
+import HomeScreen from '../screens/HomeScreen'; // Import HomeScreen
 
 const Stack = createStackNavigator();
 
 function AppNavigator() {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator screenOptions={{ headerShown: false }}>
+      {/* Splash Screen */}
+      <Stack.Screen 
+        name="Splash" 
+        component={SplashScreen} 
+      />
+
+      {/* Home Screen */}
       <Stack.Screen 
         name="Home" 
         component={HomeScreen}
         options={{
-          title: 'Lab Virtual TPB',
+          headerShown: true,
+          title: 'Virtual Lab Pengenalan Komputasi',
           headerStyle: {
             backgroundColor: '#4D2C5E',
           },
