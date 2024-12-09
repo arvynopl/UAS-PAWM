@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Lab Virtual",
+    "slug": "virtual-lab",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tpb.virtuallab"
+    },
+    "android": {
+      "package": "com.tpb.virtuallab",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "enableProguardInReleaseBuilds": false,
+      "enableHermes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1c1a0aa0-e0e9-4fe5-8529-c1a6ba600e53"
+      }
+    },
+    "owner": "pl_arvyno"
+  }
+}
